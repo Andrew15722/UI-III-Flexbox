@@ -64,3 +64,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+button:focus {
+	outline: 0;
+}
+
+.container {
+	width: 900px;
+	margin: 50px auto; 
+} 
+
+.flex {
+	display: flex;
+}
+
+header nav  {
+	display: inline-block;
+	height: 50px;
+	/* position: fixed;
+	top: 0;
+	width: 100%; */
+	
+}
+
+ul {
+	list-style-type: square;
+	margin-top: 25px;
+}
+
+ul li {
+	margin: 15px 0 0 20px;
+}
+
+hr {
+	border: .5px solid black;
+}
+
+header nav a{
+	margin: 0 20px;
+	text-decoration: none;
+	color: gainsboro;
+}
+
+header img {
+	margin-left: 100px;
+	
+}
+
+footer div {
+	text-align: center;
+}
+
+.hero div   {
+	display: inline-block;
+	font-size: 75px;
+}
+
+.hero-h1 {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+}
+
+.hero .hero-img  {
+	margin-top: 75px;
+}
+
+.hero-btn {
+	margin-bottom: 100px;
+	padding: 8px 45px;
+	border: 1px solid black;
+	background: white;
+	font-size: 15px;
+}
+
+.about-2x2 div {
+	
+}
+
+ .about-2x2{
+	width: 300px;
+	height: 150px;
+	margin: 30px;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap; 	
+}	
+
+.about .about-h3 {
+	margin-top: 30px;
+}
+
+.about .about-p {
+	margin-bottom:  35px;
+	font-size: 16px;
+}
+
+.about .x3{
+	display: inline-block;
+	width: 30%;
+}
+
+
+/*Service page start*/
+
+.container-service {
+	width: 900px;
+	margin: 50px auto; 
+} 
+
+/* nav flex */
+header .flex {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.h2-service-heading {
+	margin-top: 30px;
+	font-size: 30px;
+	width: 100%;
+	height: auto;
+}
+
+.service-heading p {
+	margin-bottom: 35px;	
+}
+
+/* Main section Flex */
+
+.service-heading {
+	line-height: 20px;
+}
+
+.service-main {
+	height: auto;
+	width: 100%;
+	flex-wrap: wrap; 
+	justify-content: space-between;
+	line-height: 20px;
+}
+
+.two-of-three {
+	height: 250px;
+	width: 430px;
+	background: #f2f2f2;
+	margin: 35px 0;
+	border: 1px solid black;
+	flex-direction: column;
+	padding: 25px 30px 0;
+}
+
+.two-of-three button {
+	margin-top: 15px;
+	width: 140px;
+	padding: 10px 0;
+	border-radius: 5px;
+	border: 1px solid black;
+	background:#f9fbff;
+}
+
+.service-facts {
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.service-facts p {
+	line-height: 22px;
+}
+
+.one-of-one {
+	width: 400px;
+	height: 250;
+	margin:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
