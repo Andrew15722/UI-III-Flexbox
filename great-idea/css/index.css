@@ -137,18 +137,18 @@ footer div {
 	font-size: 15px;
 }
 
+.about-2x2{
+   flex-direction: row;
+   justify-content: space-between; 	
+}	
+
 .about-2x2 div {
-	
+	width: 450px;
+	height: 150px;
+	margin-bottom: 30px;
+	line-height: 17px;
 }
 
- .about-2x2{
-	width: 300px;
-	height: 150px;
-	margin: 30px;
-	flex-direction: column;
-	justify-content: space-between;
-	flex-wrap: wrap; 	
-}	
 
 .about .about-h3 {
 	margin-top: 30px;
@@ -159,13 +159,19 @@ footer div {
 	font-size: 16px;
 }
 
-.about .x3{
-	display: inline-block;
-	width: 30%;
+ .x3{
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.x3 div {
+	width: 300px;
+	height: 200px;
+	margin: 0 10px;
 }
 
 
-/*Service page start*/
+/*Service page start  ***************************/
 
 .container-service {
 	width: 900px;
