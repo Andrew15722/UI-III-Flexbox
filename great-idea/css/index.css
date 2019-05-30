@@ -77,14 +77,11 @@ button:focus {
 	display: flex;
 }
 
-header nav  {
-	display: inline-block;
-	height: 50px;
-	/* position: fixed;
-	top: 0;
-	width: 100%; */
-	
-}
+header .index-nav  {
+	justify-content: space-between;
+	position: fixed;
+	top: 20;
+} 
 
 ul {
 	list-style-type: square;
@@ -102,12 +99,12 @@ hr {
 header nav a{
 	margin: 0 20px;
 	text-decoration: none;
-	color: gainsboro;
+	color: #b2b2b2;
 }
 
-header img {
-	margin-left: 100px;
-	
+nav img {
+	margin-left: 125px;
+	margin-top: -5px;
 }
 
 footer div {
@@ -123,6 +120,10 @@ footer div {
 	margin-left: 100px;
 	margin-right: 100px;
 	text-align: center;
+}
+
+.middle {
+	margin: -5px 0;
 }
 
 .hero .hero-img  {
@@ -179,11 +180,11 @@ footer div {
 } 
 
 /* nav flex */
-header .flex {
+/* header .flex {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
-}
+} */
 
 .h2-service-heading {
 	margin-top: 30px;
